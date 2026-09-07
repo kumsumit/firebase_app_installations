@@ -1,0 +1,32 @@
+name: firebase_app_installations_example
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+
+environment:
+  sdk: '^3.12.0'
+  flutter: '>=3.44.0'
+
+dependencies:
+  firebase_core: 
+    git: https://github.com/kumsumit/firebase_core.git
+  firebase_app_installations: 
+    git: https://github.com/kumsumit/firebase_app_installations.git
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  # `integration_test/report_test_results.dart` names each executed test via
+  # `package:test_api/hooks.dart`; `any` defers to the version flutter_test pins.
+  test_api: any
+
+flutter:
+  uses-material-design: true
